@@ -1,0 +1,10 @@
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.info li {
+    list-style: none;
+    font-size: 0.8rem;
+}
