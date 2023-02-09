@@ -1,0 +1,48 @@
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#socialIcons {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.4rem;
+}
+.inputCrud input {
+    width: 15rem;
+    height: 2rem;
+    padding-left: 1rem;
+}
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 2rem;
+}
+.domain {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.4rem 1rem;
+    margin: 0.3rem;
+    background-color: #3B006A;
+    color: white;
+    border-radius: 0.8rem;
+}
+#proImg img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#cate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+#cate img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
