@@ -7,6 +7,7 @@ import InfuLogin from './pages/InfluLogin/InfuLogin'
 import InfuLogin2 from './pages/InfluLogin2/InfuLogin'
 import Screen1 from './pages/Screen1/Screen1'
 import Screen2 from './pages/Screen2/Screen2'
+import Screen3 from './pages/Screen3/Screen3'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/login2' element={<InfuLogin2 />} />
         <Route path='/screen1' element={<Screen1 />} />
         <Route path='/screen2' element={<Screen2 />} />
+        <Route path='/screen3' element={<Screen3 />} />
       </Routes>
     </>
   )
